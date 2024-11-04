@@ -1,0 +1,6 @@
+@ppi_challenge_HostAddress = http://localhost:5010
+
+GET {{ppi_challenge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

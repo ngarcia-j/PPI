@@ -1,0 +1,65 @@
+{
+  "Activos": [
+    {
+      "Id": 1,
+      "Nombre": "FCI",
+      "PrecioBase": 0
+    },
+    {
+      "Id": 2,
+      "Nombre": "Accion",
+      "PrecioBase": 1200
+    },
+    {
+      "Id": 3,
+      "Nombre": "Bono",
+      "PrecioBase": 0
+    }
+  ],
+  "Cuentas": [
+    {
+      "Id": 1,
+      "NombreUsuario": "PatsyCliburn",
+      "Email": "pcliburn0@vkontakte.com",
+      "Saldo": 1000000.00
+    },
+    {
+      "Id": 2,
+      "NombreUsuario": "FaeJeanin",
+      "Email": "fjeanin1@webnode.com",
+      "Saldo": 1000000.00
+    },
+    {
+      "Id": 3,
+      "NombreUsuario": "BerneFenny",
+      "Email": "fjeanin1@webnode.com",
+      "Saldo": 1000000.00
+    }
+  ],
+  "Ordenes": [
+    {
+      "Id": 2,
+      "IdCuenta": 1,
+      "FechaAlta": "2024-11-04T00:32:49.8305401Z",
+      "IdActivo": 1,
+      "Cantidad": 0,
+      "Precio": 100,
+      "MontoTotal": 0,
+      "Estado": "Ejecutada"
+    }
+  ],
+  "Estados": [
+    {
+      "Id": 0,
+      "descripcionEstado": "En proceso"
+    },
+    {
+      "Id": 1,
+      "descripcionEstado": "Ejecutada"
+    },
+    {
+      "Id": 2,
+      "descripcionEstado": "Cancelada"
+    }
+  ]
+}
